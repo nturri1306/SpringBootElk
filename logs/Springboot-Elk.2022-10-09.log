@@ -1,0 +1,17 @@
+[2022-10-09 16:58:31.260] [nturri-HP] [main] INFO c.spingbootelk.main.MainApplication@logStarting:55 - Starting MainApplication using Java 11.0.8 on nturri-HP with PID 18652 (G:\app\workspace\SpringBootElk\target\classes started by nturri in G:\app\workspace\SpringBootElk)
+[2022-10-09 16:58:31.260] [nturri-HP] [main] INFO c.spingbootelk.main.MainApplication@logStartupProfileInfo:640 - No active profile set, falling back to 1 default profile: "default"
+[2022-10-09 16:58:31.977] [nturri-HP] [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate@registerRepositoriesIn:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-10-09 16:58:32.028] [nturri-HP] [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate@registerRepositoriesIn:201 - Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
+[2022-10-09 16:58:34.990] [nturri-HP] [main] INFO o.s.b.w.e.tomcat.TomcatWebServer@initialize:108 - Tomcat initialized with port(s): 8077 (http)
+[2022-10-09 16:58:35.004] [nturri-HP] [main] INFO o.a.coyote.http11.Http11NioProtocol@log:173 - Initializing ProtocolHandler ["http-nio-8077"]
+[2022-10-09 16:58:35.014] [nturri-HP] [main] INFO o.a.catalina.core.StandardService@log:173 - Starting service [Tomcat]
+[2022-10-09 16:58:35.015] [nturri-HP] [main] INFO o.a.catalina.core.StandardEngine@log:173 - Starting Servlet engine: [Apache Tomcat/9.0.60]
+[2022-10-09 16:58:35.152] [nturri-HP] [main] INFO o.a.c.c.C.[.[localhost].[/api]@log:173 - Initializing Spring embedded WebApplicationContext
+[2022-10-09 16:58:35.152] [nturri-HP] [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext@prepareWebApplicationContext:290 - Root WebApplicationContext: initialization completed in 3847 ms
+[2022-10-09 16:58:35.679] [nturri-HP] [main] INFO com.zaxxer.hikari.HikariDataSource@getConnection:110 - HikariPool-1 - Starting...
+[2022-10-09 16:58:35.871] [nturri-HP] [main] INFO com.zaxxer.hikari.HikariDataSource@getConnection:123 - HikariPool-1 - Start completed.
+[2022-10-09 16:58:36.662] [nturri-HP] [main] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean@buildNativeEntityManagerFactory:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-10-09 16:58:37.012] [nturri-HP] [main] WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration@openEntityManagerInViewInterceptor:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-10-09 16:58:37.440] [nturri-HP] [main] INFO o.a.coyote.http11.Http11NioProtocol@log:173 - Starting ProtocolHandler ["http-nio-8077"]
+[2022-10-09 16:58:37.462] [nturri-HP] [main] INFO o.s.b.w.e.tomcat.TomcatWebServer@start:220 - Tomcat started on port(s): 8077 (http) with context path '/api'
+[2022-10-09 16:58:37.488] [nturri-HP] [main] INFO c.spingbootelk.main.MainApplication@logStarted:61 - Started MainApplication in 9.376 seconds (JVM running for 9.87)

@@ -1,0 +1,12 @@
+[2022-10-09 17:25:59.720] [nturri-HP] [main] INFO c.s.main.MainApplicationTests@logStarting:55 - Starting MainApplicationTests using Java 11.0.8 on nturri-HP with PID 18560 (started by nturri in G:\app\workspace\SpringBootElk)
+[2022-10-09 17:25:59.724] [nturri-HP] [main] INFO c.s.main.MainApplicationTests@logStartupProfileInfo:640 - No active profile set, falling back to 1 default profile: "default"
+[2022-10-09 17:26:00.446] [nturri-HP] [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate@registerRepositoriesIn:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-10-09 17:26:00.500] [nturri-HP] [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate@registerRepositoriesIn:201 - Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interfaces.
+[2022-10-09 17:26:03.771] [nturri-HP] [main] INFO com.zaxxer.hikari.HikariDataSource@getConnection:110 - HikariPool-1 - Starting...
+[2022-10-09 17:26:03.978] [nturri-HP] [main] INFO com.zaxxer.hikari.HikariDataSource@getConnection:123 - HikariPool-1 - Start completed.
+[2022-10-09 17:26:04.741] [nturri-HP] [main] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean@buildNativeEntityManagerFactory:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-10-09 17:26:05.376] [nturri-HP] [main] WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration@openEntityManagerInViewInterceptor:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-10-09 17:26:06.022] [nturri-HP] [main] INFO c.s.main.MainApplicationTests@logStarted:61 - Started MainApplicationTests in 9.279 seconds (JVM running for 10.256)
+[2022-10-09 17:26:06.221] [nturri-HP] [SpringApplicationShutdownHook] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean@destroy:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-10-09 17:26:06.225] [nturri-HP] [SpringApplicationShutdownHook] INFO com.zaxxer.hikari.HikariDataSource@close:350 - HikariPool-1 - Shutdown initiated...
+[2022-10-09 17:26:06.233] [nturri-HP] [SpringApplicationShutdownHook] INFO com.zaxxer.hikari.HikariDataSource@close:352 - HikariPool-1 - Shutdown completed.
